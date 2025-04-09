@@ -1,0 +1,31 @@
+{
+  "name": "edge-tts-mcp",
+  "module": "index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "edge-tts-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "bun run tsc",
+    "start": "bun run build && node dist/index.js",
+    "dev": "bun run src/index.ts"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.14.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@andresaya/edge-tts": "^1.2.4",
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "@tropicbliss/symphonia": "^0.2.19",
+    "zod": "^3.24.2"
+  }
+}
