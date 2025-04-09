@@ -101,8 +101,6 @@ MCPサーバーは以下のツールを提供しています:
 Bunの代わりにNode.jsを使用してサーバーを実行することもできます:
 
 ```bash
-# まずプロジェクトをビルド
-npm run build
 
 # Node.jsで実行
 node dist/index.js

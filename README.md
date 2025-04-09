@@ -106,9 +106,6 @@ The MCP server exposes the following tool:
 You can also run the server using Node.js instead of Bun:
 
 ```bash
-# Build the project first
-npm run build
-
 # Run with Node.js
 node dist/index.js
 

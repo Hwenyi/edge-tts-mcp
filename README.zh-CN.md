@@ -101,9 +101,6 @@ MCP服务器提供以下工具：
 您也可以使用Node.js而不是Bun来运行服务器：
 
 ```bash
-# 首先构建项目
-npm run build
-
 # 用Node.js运行
 node dist/index.js
 
