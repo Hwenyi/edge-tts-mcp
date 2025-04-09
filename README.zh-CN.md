@@ -134,7 +134,7 @@ VOICE=en-US-AriaNeural RATE="+10%" SAVE_AUDIO=true node dist/index.js
 
 ### 其他客户端的配置
 
-#### 5ire或Claude网页界面
+#### 5ire 或 Claude
 
 您也可以在5ire或Claude等其他客户端中配置此MCP服务器。以下是一个配置示例：
 

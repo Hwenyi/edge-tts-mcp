@@ -139,7 +139,7 @@ When the `SAVE_AUDIO` environment variable is set to `true`, audio files will be
 
 ### Configuration for Other Clients
 
-#### 5ire or Claude Web Interface
+#### 5ire or Claude 
 
 You can also configure this MCP server in other clients like 5ire or Claude. Here's an example configuration:
 
